@@ -1,7 +1,7 @@
 ## Module 14: New York City Bike Sharing Analysis using Tableau Public
 
 <p align="center">
-![image](https://user-images.githubusercontent.com/82583576/126883401-df596b0d-011b-45dd-9d25-3246c19d1c43.png)
+<src="(https://user-images.githubusercontent.com/82583576/126883401-df596b0d-011b-45dd-9d25-3246c19d1c43.png)">
 </p>
 
 
