@@ -1,8 +1,7 @@
 ## Module 14: New York City Bike Sharing Analysis using Tableau Public
 
-<p align="center">
-<src="(https://user-images.githubusercontent.com/82583576/126883401-df596b0d-011b-45dd-9d25-3246c19d1c43.png)">
-</p>
+
+![image](https://user-images.githubusercontent.com/82583576/126883517-e3d16349-be14-40a1-a173-b4ca89c2ba7b.png)
 
 
 [Please click here to get to the Tableau Dashboard](https://public.tableau.com/app/profile/binoy.luckoo/viz/NYC_DesMoines_CitiBikes/NewYorkCityBikeRides?publish=yes)
@@ -16,13 +15,13 @@ The data from the two datasets pertaining to the New York City bike sharing prog
 However, prior to creating the worksheets in Tableau Public, the following needs to be done:
 
 - Convert the trip duration provided as an integer in the dataset to  datetime datatype by using Pandas and Python;
-- Within Tsbleau, convert the Gender from ineteger to a string to display "Male, Female or Unknown".
+- Within Tableau, convert the Gender from ineteger to a string to display "Male, Female or Unknown".
 
+There are two datasets that were used in the analysis:
 
-There are two datasets that were used in the analysis
+- citi_bike.csv: amongst other data, includes data with regards to riders gender, trip duration, usage relative to time of day.
+- 201908-citibike-tripdata: amongst other data contains the August 2019 data with regards to number of rides, starting locations, ending locations.
 
-Ride Data from New Jersey (September 21 2015 - June 30 2018), a light dataset for the tests.
-Ride Data from New York (July 20 2017 - June 30 2018), a Public version of Tableau has a limit of 15 millions rows for a single dataset, therefore this dataset has a smaller time span.
 
 Tableau workbook description
 Overview dashboard:
