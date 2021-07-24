@@ -1,15 +1,23 @@
-## New York City Bike Sharing Analysis
+## Module 14: New York City Bike Sharing Analysis using Tableau Public
 
 <p align="center">
 ![image](https://user-images.githubusercontent.com/82583576/126883061-ef0ddc9e-6b89-4981-b1dd-1e7f9444666b.png)
 </p>
 
 
-
 [Please click here to get to the Tableau Dashboard](https://public.tableau.com/app/profile/binoy.luckoo/viz/NYC_DesMoines_CitiBikes/NewYorkCityBikeRides?publish=yes)
 
-Using Tableau to Display an Analysis of the NYC Bike Sharing Program
-This project is dedicated to the New York Citi Bike sharing program. The data which is collected end renewed monthly, can be found here: Citi Bike Data.
+## Overview
+
+The objective of this project is to create visualizations in Tableau Public to present information to investors with regards to a potential bike sharing project in Des Moines, Iowa.
+
+The data from the two datasets pertaining to the New York City bike sharing program will be used for the visualizations.
+
+However, prior to creating the worksheets in Tableau Public, the following needs to be done:
+
+- Convert the trip duration provided as an integer in the dataset to  datetime datatype by using Pandas and Python;
+- Within Tsbleau, convert the Gender from ineteger to a string to display "Male, Female or Unknown".
+
 
 There are two datasets that were used in the analysis
 
