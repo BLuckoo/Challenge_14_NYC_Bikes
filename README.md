@@ -1,7 +1,7 @@
 ## New York City Bike Sharing Analysis
 
 <p align="center">
-
+![NYC_Bikes](https://user-images.githubusercontent.com/82583576/126883049-0adb6bb8-33d1-44ec-8685-1ce788d030a2.png)
 </p>
 
 [Please click here to get to the Tableau Dashboard](https://public.tableau.com/app/profile/binoy.luckoo/viz/NYC_DesMoines_CitiBikes/NewYorkCityBikeRides?publish=yes)
