@@ -1,7 +1,7 @@
 ## New York City Bike Sharing Analysis
 
-<p>
-![image](https://user-images.githubusercontent.com/82583576/126882894-4e668793-2202-41fa-81f5-3edb27c45785.png)
+<p align="center">
+
 </p>
 
 [Please click here to get to the Tableau Dashboard](https://public.tableau.com/app/profile/binoy.luckoo/viz/NYC_DesMoines_CitiBikes/NewYorkCityBikeRides?publish=yes)
@@ -71,74 +71,7 @@ Duration by age.
 Steps
 1. Data loading and cleaning
 
-browser = webdriver.Chrome('/usr/local/bin/chromedriver')
-browser.get('https://s3.amazonaws.com/tripdata/index.html')
-#get all links
-all_links = [link.get_attribute('href') for link in browser.find_elements_by_tag_name('a')]
-# extract necessary links
-linksJC_17 = [link for link in all_links if 'JC' in link if '2017' in link]
-linksJC_18 = [link for link in all_links if 'JC' in link if '2018' in link]
-links_17 = [link for link in all_links if 'JC' not in link if '2017' in link]
-links_18 = [link for link in all_links if 'JC' not in link if '2018' in link]
-# function for downloading, unziping and dataframing data from a link
-def create_df(link):
-    
-    url = urllib.request.urlopen(link)
-    output = open('temporary.zip', 'wb')    
-    output.write(url.read())
-    output.close()
-    dataframe = pd.read_csv('temporary.zip')
-    
-    if (len(dataframe.columns) == 15):
-        dataframe.columns = ['Trip Duration (sec)', 'Start Time', 'Stop Time', 'Start Station ID',
-       'Start Station Name', 'Start Station Latitude',
-       'Start Station Longitude', 'End Station ID', 'End Station Name',
-       'End Station Latitude', 'End Station Longitude', 'Bike ID', 'User Type',
-       'Birth_Year', 'Gender']
-    else:
-        dataframe.columns = ['Trip Duration (sec)', 'Start Time', 'Stop Time', 'Start Station ID',
-       'Start Station Name', 'Start Station Latitude',
-       'Start Station Longitude', 'End Station ID', 'End Station Name',
-       'End Station Latitude', 'End Station Longitude', 'Bike ID',
-       'Localized Value', 'User Type', 'Birth_Year', 'Gender']
-        dataframe = dataframe.drop('Localized Value',1)
-        
-    print(link)
-    os.remove('temporary.zip')
-    
-    return dataframe
-# function for cleaning and preparing df
-def prepare_df(df):
-    
-#     drop n/a
-    df = df.dropna(how='any').reset_index(drop=True)
-    
-#     change data types
-    df['Birth_Year'] = df.Birth_Year.astype(int)
-    df['Start Time'] = pd.to_datetime(df['Start Time'])
-    df['Stop Time'] = pd.to_datetime(df['Stop Time'])
-    
-#     add Age column
-    df['Age'] = 2018 - df['Birth_Year']
-    
-#     exclude ages > 90 years
-    df = df[df['Age'] < 90]
-    
-    return df
-# create empty df
-ny17 = pd.DataFrame()
-ny18 = pd.DataFrame()
-# append to new df
-for link in links_17:
-    temporary_df = create_df(link)
-    ny17 = ny17.append(temporary_df, ignore_index=True, sort=False)
 
-for link in links_18:
-    temporary_df = create_df(link)
-    ny18 = ny18.append(temporary_df, ignore_index=True, sort=False)
-# clean and prepare df
-ny17 = prepare_df(ny17)
-ny18 = prepare_df(ny18)
 2. Visualization in Tableau
 
 Conclusions
