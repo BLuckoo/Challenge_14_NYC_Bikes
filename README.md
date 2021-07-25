@@ -10,6 +10,14 @@
 
 The objective of this project is to create visualizations in Tableau Public to present information to investors with regards to a potential bike sharing project in Des Moines, Iowa.
 
+The visualizations presented to the investors will include:
+
+- Length of time bikes are checked out by each gender
+- Number of bike trips by all users and each gender for each day of the week
+- Number of bike trips for each type of user and gender for each day of the week
+
+## Results of the Analysis
+
 The data from the two datasets pertaining to the New York City bike sharing program will be used for the visualizations.
 
 However, prior to creating the worksheets in Tableau Public, the following needs to be done:
@@ -23,65 +31,45 @@ There are two datasets that were used in the analysis:
 - 201908-citibike-tripdata: amongst other data contains the August 2019 data with regards to number of rides, starting locations, ending locations.
 
 
+![image](https://user-images.githubusercontent.com/82583576/126883629-8f3bcfd8-4c8a-4a5a-8ea4-fe42ee00059e.png)
+
+
+##
+##
+
+
+
+![image](https://user-images.githubusercontent.com/82583576/126883636-f710d64a-9bda-4a1b-b35e-59c1e18d0d39.png)
+
+
+
+##
+##
+
+
+![image](https://user-images.githubusercontent.com/82583576/126883657-944fc035-b777-4c73-a152-421c3ad79c3c.png)
+
+
+##
+##
+
+
+![image](https://user-images.githubusercontent.com/82583576/126883668-494ff42a-37d3-47c8-af22-da6413287780.png)
+
+
+##
+##
+
+![image](https://user-images.githubusercontent.com/82583576/126883679-b9e14356-9507-421b-9ae6-5819aea801b6.png)
+
+
+##
+
+
+
 Tableau workbook description
 Overview dashboard:
-Time period can be choosen with the range of dates.
 
-Any station can be chosen for a deeper analysis.
-
-All data below is actual for the choosen period of time and station.
-
-Map shows all the stations with outgoing trips.
-
-Overall information about total number of trips, average duration and number of unique bikes.
-
-% of subscribers and customers.
-
-9 bikes with the longest travel time.
-
-Trips length divided in 5 categories.
-
-Month to month growth or decrease in a number of rides.
-
-Most and less popular time of the day.
-
-Age and gender distribution.
-
-Top and bottom 10 station for outgoing trips.
-
-Single bike dashboard:
-Gives an information about a particular bike.
-
-Map shows all the station where the bike has ever been and the number of it's rides from that stations.
-
-Overall information about total number of rides, duration and average trip length.
-
-Age distribution by age groups.
-
-Customer type.
-
-Trips by duration.
-
-Other sheets:
-Map with outgoing trips.
-
-Trips by length depending on the day and time.
-
-Station popularity by month.
-
-Top/Bottom 10 end stations.
-
-Rides by age by station.
-
-Bikes rotation by station.
-
-Duration by age.
-
-Steps
-1. Data loading and cleaning
-
-
-2. Visualization in Tableau
 
 Conclusions
 
@@ -103,14 +91,8 @@ ableau CitiBike: January 2019 - August 2019
 Goal
 Analyze CitiBike data between January and August 2019 for trends and visualize them using Tableau Public. View the Tableau Public workbook here (it may take a moment to load).
 
-Data Cleaning
-Before doing any visualizations, I first used Python and the Pandas library to clean the data. In a Jupyter Notebook, I concatenated monthly data files into one, and then dropped rows where the trip duration was under 90 seconds and the starting and ending stations were the same. This was done to weed out any instances of a faulty bike.
 
-Then, trip duration was converted from seconds to minutes, which is personally easier to understand at first glance, and all trips over 24 hours (1440 minutes) dropped. Under CitiBike’s current pricing model, bikes can be used an unlimited amount of times (under the day passes and subscriptions) but in 30- or 45-minute intervals. Trips longer than that, are charged an extra $2.50 or $4.00 every 15 minutes. Therefore, all bikes that were not docked for over 24-hours were most likely stolen, and not legitimate rides. This was still a conservative assumption, as bike rides up to 24 hours would still cost the user between $232.50 and $376.
 
-Next, I converted the gender column (which was originally numerically coded) into strings using a list comprehension, and added an extra column for ride id to uniquely identify each ride. Then, I calculated the distance for each trip, and the ages of each rider. Finally, I dropped all rows where riders were above the age of 90, assuming these were fake ages (some riders even gave ages over 130), and divided the riders into age bins. Like trip duration, I again made a conservative estimate, as it is unlikely that users in their 80s would be riding bikes in a large city.
-
-In a separate notebook, I reshaped the cleaned data. Originally, each row represented one ride, with the starting and ending information in one row. Because I wanted to visualization each bike path, I need to plot two sets of coordinates at the same time. So, I divided the data so that the starting information and ending information would be in separate rows. Though visualizations were made with this data, it was not included in the final analysis.
 
 Analysis
 My analysis focused on user types (customer or subscriber) and gender (male, female, unknown). Though annual subscribers make up over 90% of total riders, customers (1-day and 3-day rentals) have a higher growth rate (1718%) than subscribers (113%). This could signal a growing interest in short-term rentals for users who want to experience the CitiBike product without being tied down for a whole year, or perhaps even a growing tourist market.
