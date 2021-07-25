@@ -34,17 +34,17 @@ The visualizations (worksheets, dashboards and story board) can be found in Tabl
 
 Below is a summary of the visualizations.
 
-**1. Demographics of the bike users**
+**1. Rider Demographics**
 
 As illustrated in the dashboard below, the total number of users were 2,344,224, 81% of which are subscribers to the service.
-Also to be noted that 65% of total users are males.
+Also to be noted that 65% of total users are male.
 
 ![image](https://user-images.githubusercontent.com/82583576/126883629-8f3bcfd8-4c8a-4a5a-8ea4-fe42ee00059e.png)
 ##
 ##
 **2. Trip Location Summary**
 
-Most ride starts and ends are located in central Manhattan with peak hours being between 8:00 am to 10:00 am and 5:00 pm to 7:00 pm.
+Most ride start and end points are located in central Manhattan, the peak usage hours are between 8:00 am to 10:00 am and 5:00 pm to 7:00 pm.
 The top 10 start stations are also close to Grand Central Station.
 
 ![image](https://user-images.githubusercontent.com/82583576/126883636-f710d64a-9bda-4a1b-b35e-59c1e18d0d39.png)
@@ -53,8 +53,8 @@ The top 10 start stations are also close to Grand Central Station.
 **3. User Trips Information**
 
 The majority of riders were born between 1980 and 2000 with maximum duration of trips being around 15 minutes irrespective of gender.
-The highest number of rentals are during the peak hours for most of the weekdays except for Wednesday, where the afternoon, i.e. 5:00 pm to 7:00 pm, is not as busy as the other days of the workweek.
-During the week-ends, Saturday is quite busy from 10:00 am till 6:00 pm.
+The highest number of rentals are during the peak hours for most of the weekdays except for Wednesday.
+During the week-ends, Saturday is busy from 10:00 am till 6:00 pm.
 
 ![image](https://user-images.githubusercontent.com/82583576/126883657-944fc035-b777-4c73-a152-421c3ad79c3c.png)
 ##
@@ -67,12 +67,12 @@ From the dashboard below, it is very evident that male subscribers make up the m
 ##
 ##
 **Summary**
-- Male subscribers to the bike sharing service are the majority of the ridership in New york City.
-- The main duration of rides is less than 20 minutes with peak times being on weekdays between 8:00 am to 10:00 am and between 5:00 pm and 7:00 pm.
+- Male subscribers to the bike sharing service make up the majority of the ridership in New York City.
+- The main duration of rides is less than 20 minutes with peak times being on weekdays between 8:00 am to 10:00 am and 5:00 pm and 7:00 pm.
 - Busiest bike stations are close to the train station.
-- The common rider was born between 1980 and 2000. 
-- To keep the rideship happy, a maintenance program for the bikes must be in place. One way toschedule the bike maintenance is to consider their utilization.
-  - The following bubble chart illustrates the bikes that have the highest utilizations - the size of the bubbles are relative to the utilization level of each bike.
+- The majority of riders were born between 1980 and 2000. 
+- To keep the rideship happy, a maintenance program for the bikes must be in place. One way to schedule the bike maintenance is to consider their utilization.
+  - The following bubble chart illustrates the bikes that have the highest utilization rates - the size of the bubbles is relative to the utilization level of each bike.
 ##
 ![image](https://user-images.githubusercontent.com/82583576/126883679-b9e14356-9507-421b-9ae6-5819aea801b6.png)
 ##
