@@ -86,7 +86,7 @@ From the dashboard below, it is very evident that male subscribers make up the m
 ##
 - Survey geared towards female ridership to understand the barriers to ridership.
 - Marketing campaigns to encourage female ridership.
-- Marketing campaigns geared towards increasing ridership during the week-ends - may be reduced rates or more bike stations closer to tourist attractions. 
+- Marketing campaigns geared towards increasing ridership on the week-ends - may be reduced rates or increased number of bike stations closer to tourist attractions. 
 
 ##
 **Further Analysis & Recommendations**
