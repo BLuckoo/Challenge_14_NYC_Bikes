@@ -20,7 +20,7 @@ The visualizations presented to the investors will include:
 
 The data from the two datasets pertaining to the New York City bike sharing program for the month of August 2019 will be used for the visualizations.
 
-However, prior to creating the worksheets in Tableau Public, the following needs to be done:
+However, prior to creating the worksheets in Tableau Public, the following needs to be completed:
 
 - Convert the trip duration provided as an integer in the dataset to  datetime datatype by using Pandas and Python;
 - Within Tableau, convert the Gender from ineteger to a string to display "Male, Female or Unknown".
