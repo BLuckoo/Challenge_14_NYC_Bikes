@@ -71,7 +71,7 @@ From the dashboard below, it is very evident that male subscribers make up the m
 - The main duration of rides is less than 20 minutes with peak times being on weekdays between 8:00 am to 10:00 am and between 5:00 pm and 7:00 pm.
 - Busiest bike stations are close to the train station.
 - The common rider was born between 1980 and 2000. 
-  . owever, the dataset may need some further investigation and clean up with regards to birth years. The data contains some riders with birth years from 1880 to early 1900's.     Not convinced that people of that age will be riding bikes in 2019.
+-- However, the dataset may need some further investigation and clean up with regards to birth years. The data contains some riders with birth years from 1880 to early 1900's.     Not convinced that people of that age will be riding bikes in 2019.
 
 - To keep the rideship happy, a maintenance program for the bikes must be in place. One way toschedule the bike maintenance is to consider their utilization.
 The folliwng bubble chart illustrates the bikes that have the highest utilizations - the size of the bubbles are relative to the utilization level of each bike.
