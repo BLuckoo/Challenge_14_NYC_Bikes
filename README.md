@@ -57,10 +57,11 @@ During the week-ends, Saturday is quite busy from 10:00 am till 6:00 pm.
 
 ![image](https://user-images.githubusercontent.com/82583576/126883657-944fc035-b777-4c73-a152-421c3ad79c3c.png)
 
-
 ##
 ##
+**4. User Trips by Gender**
 
+From the dashboard below, it is very evident that male subscribers make up the majority of the ridership. 
 ![image](https://user-images.githubusercontent.com/82583576/126883668-494ff42a-37d3-47c8-af22-da6413287780.png)
 
 ##
