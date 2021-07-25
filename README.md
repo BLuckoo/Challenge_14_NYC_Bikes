@@ -12,9 +12,9 @@ The objective of this project is to create visualizations in Tableau Public to p
 
 The visualizations presented to the investors will include:
 
-- Length of time bikes are checked out by each gender
-- Number of bike trips by all users and each gender for each day of the week
-- Number of bike trips for each type of user and gender for each day of the week
+- Length of time bikes are checked out by gender
+- Number of bike trips by all users and gender for each day of the week
+- Number of bike trips by type of user and gender for each day of the week
 
 ## Results of the Analysis
 
