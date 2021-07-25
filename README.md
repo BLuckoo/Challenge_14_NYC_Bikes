@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/82583576/126883517-e3d16349-be14-40a1-a173-b4ca89c2ba7b.png)
 
 
-[Please click here to get to the Tableau Dashboard](https://public.tableau.com/app/profile/binoy.luckoo/viz/NYC_DesMoines_CitiBikes/NewYorkCityBikeRides?publish=yes)
+
 
 ## Overview
 
@@ -30,6 +30,9 @@ There are two datasets that were used in the analysis:
 - citi_bike.csv: amongst other data, includes data with regards to riders gender, trip duration, usage relative to time of day.
 - 201908-citibike-tripdata: amongst other data contains the August 2019 data with regards to number of rides, starting locations, ending locations.
 
+The visualizations (worksheets, dashboards and story board) can be found in Tableau Public by clicking [here](https://public.tableau.com/app/profile/binoy.luckoo/viz/NYC_DesMoines_CitiBikes/NewYorkCityBikeRides?publish=yes).
+
+Below is a summary of the visualizations.
 
 **1. Demographics of the bike users**
 
@@ -71,14 +74,14 @@ The folliwng bubble chart illustrates the bikes that have the highest utilizatio
 ![image](https://user-images.githubusercontent.com/82583576/126883679-b9e14356-9507-421b-9ae6-5819aea801b6.png)
 ##
 ##
-##Summary##
+**Summary**
 
 - Male subscribers are the majority of riders in New York City.
 - The common rider was born between 1980 and 2000.
 - The main duration of rides is less than 20 minutes with peak times being on weekdays between 8:00 am to 10:00 am and between 5:00 pm and 7:00 pm.
 - Busiest bike sttaions are close to the train station.
 
-##Recommendations##
+**Recommendations**
 
 - Marketing campaigns targetted at converting users to subscribers.
 - Survey geared towards female ridership to find out if the bikes are attractive and safe for to the female riders.
