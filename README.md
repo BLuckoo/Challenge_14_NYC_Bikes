@@ -18,7 +18,7 @@ The visualizations presented to the investors will include:
 
 ## Results of the Analysis
 
-The data from the two datasets pertaining to the New York City bike sharing program will be used for the visualizations.
+The data from the two datasets pertaining to the New York City bike sharing program for the month of August 2019 will be used for the visualizations.
 
 However, prior to creating the worksheets in Tableau Public, the following needs to be done:
 
@@ -30,6 +30,11 @@ There are two datasets that were used in the analysis:
 - citi_bike.csv: amongst other data, includes data with regards to riders gender, trip duration, usage relative to time of day.
 - 201908-citibike-tripdata: amongst other data contains the August 2019 data with regards to number of rides, starting locations, ending locations.
 
+
+#1. Demographics of the bike users#
+
+As illustrated in the dashboard below, the total number of users were 2,344,224, 81% of which are subscribers to the service.
+Also to be noted that 65% of total users are males.
 
 ![image](https://user-images.githubusercontent.com/82583576/126883629-8f3bcfd8-4c8a-4a5a-8ea4-fe42ee00059e.png)
 
