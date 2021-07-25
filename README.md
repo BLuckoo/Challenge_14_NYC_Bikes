@@ -47,10 +47,13 @@ The top 10 start stations are also close to Grand Central Station.
 
 ![image](https://user-images.githubusercontent.com/82583576/126883636-f710d64a-9bda-4a1b-b35e-59c1e18d0d39.png)
 
-
 ##
 ##
+**3. User Trips Information**
 
+The majority of riders were born between 1980 and 2000 with maximum duration of trips being around 15 minutes irrespective of gender.
+The highest number of rentals are during the peak hours for most of the weekdays except for Wednesday, where the afternoon, i.e. 5:00 pm to 7:00 pm, is not as busy as the other days of the workweek.
+During the week-ends, Saturday is quite busy from 10:00 am till 6:00 pm.
 
 ![image](https://user-images.githubusercontent.com/82583576/126883657-944fc035-b777-4c73-a152-421c3ad79c3c.png)
 
