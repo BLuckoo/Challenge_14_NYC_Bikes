@@ -31,18 +31,19 @@ There are two datasets that were used in the analysis:
 - 201908-citibike-tripdata: amongst other data contains the August 2019 data with regards to number of rides, starting locations, ending locations.
 
 
-## 1. Demographics of the bike users ##
+**1. Demographics of the bike users**
 
 As illustrated in the dashboard below, the total number of users were 2,344,224, 81% of which are subscribers to the service.
 Also to be noted that 65% of total users are males.
 
 ![image](https://user-images.githubusercontent.com/82583576/126883629-8f3bcfd8-4c8a-4a5a-8ea4-fe42ee00059e.png)
 
-
 ##
 ##
+**2. Trip Location Summary**
 
-
+Most ride starts and ends are located in central Manhattan with peak hours being between 8:00 am to 10:00 am and 5:00 pm to 7:00 pm.
+The top 10 start stations are also close to Grand Central Station.
 
 ![image](https://user-images.githubusercontent.com/82583576/126883636-f710d64a-9bda-4a1b-b35e-59c1e18d0d39.png)
 
