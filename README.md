@@ -71,22 +71,23 @@ From the dashboard below, it is very evident that male subscribers make up the m
 - The main duration of rides is less than 20 minutes with peak times being on weekdays between 8:00 am to 10:00 am and between 5:00 pm and 7:00 pm.
 - Busiest bike stations are close to the train station.
 - The common rider was born between 1980 and 2000. 
-  . However, the dataset may need some further investigation and clean up with regards to birth years. The data contains some riders with birth years from 1880 to early 1900's.     Not convinced that people of that age will be riding bikes in 2019.
-
 - To keep the rideship happy, a maintenance program for the bikes must be in place. One way toschedule the bike maintenance is to consider their utilization.
-The folliwng bubble chart illustrates the bikes that have the highest utilizations - the size of the bubbles are relative to the utilization level of each bike.
+  - The folliwng bubble chart illustrates the bikes that have the highest utilizations - the size of the bubbles are relative to the utilization level of each bike.
 ##
 ![image](https://user-images.githubusercontent.com/82583576/126883679-b9e14356-9507-421b-9ae6-5819aea801b6.png)
 ##
 ##
-
-**Further Analysis & Recommendations**
-For Des Moines, need to gather some data and create visualizations regarding:
-- The gender ratio of the urban centres.
-- Locations of train or subway stations.
 - Marketing campaigns targetted at converting users to subscribers.
 - Survey geared towards female ridership to find out if the bikes are attractive and safe for to the female riders.
 - Marketing campaigns to encourage female ridership.
 - Marketing campaigns geared towards increasing ridership during the week-ends - may be reduced rates or more bike stations closer to tourist attractions. 
+
+##
+**Further Analysis & Recommendations**
+For Des Moines, need to gather some data and create visualizations regarding:
+- The gender ratio of the urban centres.
+- Locations of train or subway stations.
+
+
 
 
