@@ -27,8 +27,8 @@ However, prior to creating the worksheets in Tableau Public, the following needs
 
 There are two datasets that were used in the analysis:
 
-- citi_bike.csv: amongst other data, includes data with regards to riders gender, trip duration, usage relative to time of day.
-- 201908-citibike-tripdata: amongst other data contains the August 2019 data with regards to number of rides, starting locations, ending locations.
+- citi_bike.csv: includes data with regards to rider gender, trip duration and usage relative to time of day.
+- 201908-citibike-tripdata: includes data pertaining to August 2019 related to the number of rides, starting locations and ending locations.
 
 The visualizations (worksheets, dashboards and story board) can be found in Tableau Public by clicking [here](https://public.tableau.com/app/profile/binoy.luckoo/viz/NYC_DesMoines_CitiBikes/NewYorkCityBikeRides?publish=yes).
 
