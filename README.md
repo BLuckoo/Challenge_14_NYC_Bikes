@@ -72,12 +72,17 @@ From the dashboard below, it is very evident that male subscribers make up the m
 - Busiest bike stations are close to the train station.
 - The common rider was born between 1980 and 2000. 
 - To keep the rideship happy, a maintenance program for the bikes must be in place. One way toschedule the bike maintenance is to consider their utilization.
-  - The folliwng bubble chart illustrates the bikes that have the highest utilizations - the size of the bubbles are relative to the utilization level of each bike.
+  - The following bubble chart illustrates the bikes that have the highest utilizations - the size of the bubbles are relative to the utilization level of each bike.
 ##
 ![image](https://user-images.githubusercontent.com/82583576/126883679-b9e14356-9507-421b-9ae6-5819aea801b6.png)
 ##
 ##
-- Marketing campaigns targetted at converting users to subscribers.
+- A survey and /or marketing campaign targetted at converting users to subscribers.
+  - The following illustrates the top 15 stations where customers start their bike trips.
+##
+![image](https://user-images.githubusercontent.com/82583576/126885961-9b7d348f-1339-4606-b9e7-621c22c5f087.png)
+##
+##
 - Survey geared towards female ridership to find out if the bikes are attractive and safe for to the female riders.
 - Marketing campaigns to encourage female ridership.
 - Marketing campaigns geared towards increasing ridership during the week-ends - may be reduced rates or more bike stations closer to tourist attractions. 
@@ -87,6 +92,7 @@ From the dashboard below, it is very evident that male subscribers make up the m
 For Des Moines, need to gather some data and create visualizations regarding:
 - The gender ratio of the urban centres.
 - Locations of train or subway stations.
+- Legislations with regards to bikes in Des Moines - i.e. reserved bike lanes.
 
 
 
