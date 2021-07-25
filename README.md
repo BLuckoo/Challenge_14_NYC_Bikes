@@ -48,7 +48,6 @@ The top 10 start stations are also close to Grand Central Station.
 ![image](https://user-images.githubusercontent.com/82583576/126883636-f710d64a-9bda-4a1b-b35e-59c1e18d0d39.png)
 
 
-
 ##
 ##
 
@@ -59,9 +58,7 @@ The top 10 start stations are also close to Grand Central Station.
 ##
 ##
 
-
 ![image](https://user-images.githubusercontent.com/82583576/126883668-494ff42a-37d3-47c8-af22-da6413287780.png)
-
 
 ##
 ##
