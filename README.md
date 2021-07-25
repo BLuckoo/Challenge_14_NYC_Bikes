@@ -77,7 +77,7 @@ From the dashboard below, it is very evident that male subscribers make up the m
 ![image](https://user-images.githubusercontent.com/82583576/126883679-b9e14356-9507-421b-9ae6-5819aea801b6.png)
 ##
 ##
-- A survey and /or marketing campaign targetted at converting users to subscribers.
+- It is important to turn the occasional user into a subscriber - therefore woudl reccoment carrying out a survey and /or marketing campaign targetted at converting users to subscribers.
   - The following illustrates the top 15 stations where customers start their bike trips.
 ##
 ![image](https://user-images.githubusercontent.com/82583576/126885961-9b7d348f-1339-4606-b9e7-621c22c5f087.png)
